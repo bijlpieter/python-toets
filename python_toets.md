@@ -4,7 +4,7 @@
 Wat doen de functies `int(x)`, `float(x)`, `str(x)`?
 
 ## Opdracht 2
-Welk van de volgende statements kun je gebruiken om 1 bij het getal x op te tellen?
+Welk van de volgende statements kun je gebruiken om 1 bij het getal x op te tellen? (Er kunnen meerdere antwoorden goed zijn)
 - `x = x + 1`
 - `x == x + 1`
 - `x += 1`
@@ -21,7 +21,7 @@ def foo(x):
 	if (x > 5):
 		print(x)
 ```
-Leg uit wat de volgende statements printen.
+Leg uit wat de volgende statements printen:
 - `foo(5)`
 - `foo(-3)`
 - `foo(7)`

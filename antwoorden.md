@@ -9,7 +9,7 @@ Als dit niet lukt, dan gooit de functie een uitzondering (exception).
 Bijvoorbeeld, `float("x8nw")` zal niet werken, want de inhoud van de string `"x8nw"` is geen komma getal.
 
 ## Opdracht 2
-Welk van de volgende statements kun je gebruiken om 1 bij het getal x op te tellen?
+Welk van de volgende statements kun je gebruiken om 1 bij het getal x op te tellen? (Er kunnen meerdere antwoorden goed zijn)
 - `x = x + 1`
 - `x += 1`
 
@@ -24,8 +24,8 @@ def foo(x):
 	if (x > 5):
 		print(x)
 ```
-Leg uit wat de volgende statements printen.
-- `foo(5)`
+Leg uit wat de volgende statements printen:
+### `foo(5)`
 `5` is niet minder dan `0`, dus de eerste `if`-statement gaat niet af.
 Omdat de eerste if-statement niet af gaat, kijken we nu naar de `elif`-statement. Deze gaat alleen af als de voorafgaande `if` niet afgaat.
 `5` is wel minder dan `10`, dus er wordt hier `5` geprint.
@@ -35,13 +35,14 @@ Output:
 ```
 5
 ```
-- `foo(-3)`
+### `foo(-3)`
 `-3` is wel minder dan 0, dus de eerste `if`-statement gaat af, en `-3` wordt geprint. Omdat de eerste `if`-statement af gaat, wordt de `elif`-statement niet gecheckt. Dat betekent dat deze sowieso niet af gaat.
 `-3` is niet meer dan `5`, dus de laatste `if`-statement gaat ook niet af.
 Output:
 ```
 -3
 ```
+###S `foo(7)`
 `7` is niet minder dan `0`, dus de eerste `if`-statement gaat niet af.
 Omdat de eerste if-statement niet af gaat, kijken we nu naar de `elif`-statement. Deze gaat alleen af als de voorafgaande `if` niet afgaat.
 `7` is wel minder dan `10`, dus er wordt hier `7` geprint.
