@@ -25,3 +25,17 @@ Leg uit wat de volgende statements printen:
 - `foo(5)`
 - `foo(-3)`
 - `foo(7)`
+
+## Opdracht 4
+Welk van de volgende identifiers is niet een legale naam voor een variable in python?
+- `my-variable`
+- `my_variable`
+- `MyVariable`
+- `myVariable`
+
+# Opdracht 5
+Welk van de volgende operators kun je gebruiken om de rest van een deelsom uit te rekenen? (97 gedeeld door 10 heeft rest 7)
+- `/`
+- `%`
+- `**`
+- `//`

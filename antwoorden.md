@@ -36,7 +36,7 @@ Output:
 5
 ```
 ### `foo(-3)`
-`-3` is wel minder dan 0, dus de eerste `if`-statement gaat af, en `-3` wordt geprint. Omdat de eerste `if`-statement af gaat, wordt de `elif`-statement niet gecheckt. Dat betekent dat deze sowieso niet af gaat.
+`-3` is wel minder dan `0`, dus de eerste `if`-statement gaat af, en `-3` wordt geprint. Omdat de eerste `if`-statement af gaat, wordt de `elif`-statement niet gecheckt. Dat betekent dat deze sowieso niet af gaat.
 `-3` is niet meer dan `5`, dus de laatste `if`-statement gaat ook niet af.
 Output:
 ```
@@ -53,3 +53,11 @@ Output:
 7
 7
 ```
+
+## Opdracht 4
+Welk van de volgende identifiers is niet een legale naam voor een variable in python?
+- `my-variable`. Dit is omdat het kleine streepje (`-`) gebruikt wordt als min teken.
+
+# Opdracht 5
+Welk van de volgende operators kun je gebruiken om de rest van een deelsom uit te rekenen?
+- `%`
