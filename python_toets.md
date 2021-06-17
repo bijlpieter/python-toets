@@ -33,9 +33,22 @@ Welk van de volgende identifiers is niet een legale naam voor een variable in py
 - `MyVariable`
 - `myVariable`
 
-# Opdracht 5
-Welk van de volgende operators kun je gebruiken om de rest van een deelsom uit te rekenen? (97 gedeeld door 10 heeft rest 7)
+## Opdracht 5
+Welk van de volgende operators kun je gebruiken om de rest van een deelsom uit te rekenen? (`97` gedeeld door `10` heeft rest `7`)
 - `/`
 - `%`
 - `**`
 - `//`
+
+## Opdracht 6
+Bekijk het volgende stukje code
+```py
+def bar(a, b):
+	if (a <= b):
+		return b
+	else:
+		return a
+```
+Leg in je eigen woorden uit wat `bar(1, 2)` en `bar(4, 3)` returnen. Wat doet de functie bar?
+
+## Opdracht 7
