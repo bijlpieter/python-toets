@@ -52,3 +52,17 @@ def bar(a, b):
 Leg in je eigen woorden uit wat `bar(1, 2)` en `bar(4, 3)` returnen. Wat doet de functie bar?
 
 ## Opdracht 7
+Wat is de output van deze code?
+```py
+a = 10
+b = 5
+c = 3
+d = a + b * c
+print(d)
+```
+- `25`
+- `45`
+- `18`
+- `d`
+
+## Opdracht 8

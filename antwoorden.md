@@ -76,5 +76,18 @@ Leg in je eigen woorden uit wat `bar(1, 2)` en `bar(4, 3)` returnen. Wat doet de
 ### `bar(1, 2)`
 In dit geval hebben we `a == 1` en `b == 2`. `a` is minder of gelijk aan `b`, dus retourneert de functie `b`. Dat is `2`.
 ### `bar(4, 3)`
-In dit geval hebben we `a == 4` en `b == 3`. `a` is niet minder of gelijk aan `b`, dus retourneert de functie `a` via de `else`. Dat is `4`.
+In dit geval hebben we `a == 4` en `b == 3`. `a` is niet minder of gelijk aan `b`, dus retourneert de functie `a` via de `else`. Dat is `4`.\
 Deze functie retourneert altijd de grootste van de twee inputwaardes.
+
+## Opdracht 7
+Wat is de output van deze code?
+```py
+a = 10
+b = 5
+c = 3
+d = a + b * c
+print(d)
+```
+- `25`
+
+## Opdracht 8
