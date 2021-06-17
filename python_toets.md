@@ -93,6 +93,13 @@ In welk van de volgende gevallen is `x` altijd `True`?
 - `x = (7 == 7)`
 - `x = x`
 
+## Opdracht 1.11
+`x` is `True` of `False`. Wanneer is `y` altijd `True`?
+- `y = x`
+- `y = x and x`
+- `y = x or x`
+- `y = x or not x`
+
 # Programmeer vragen
 Maak bij al deze vragen gebruik van een net formaat en geef elke functie of variable een passende naam.
 
@@ -105,3 +112,21 @@ Schrijf een functie die als input een geheel getal neemt, en `True` retourneert 
 ## Opdracht 2.3
 Om het aantal woorden in een zin te tellen kun je alle spaties in de zin tellen. Bijvoorbeeld, de zin `"Vandaag is het lekker weer.` heeft 4 spaties.\
 Schrijf een functie die op deze manier het aantal woorden in een `string` telt. Je mag ervan uitgaan dat er geen extra onnodige spaties voor of na de zin staan.
+
+## Opdracht 2.4
+De `count(x)` methode telt hoe vaak `x` voorkomt in een lijst. Bijvoorbeeld:
+```py
+lijst = [0, 1, 1, 2, 4]
+print(lijst.count(1))
+```
+heeft als output: `2`.
+Schrijf een functie die bepaalt of het getal `3` minimaal 4 en maximaal 7 keer in een lijst voorkomt. Dus:
+```py
+jouw_functie([3, 4, 2, 3, 3]) == True
+jouw_functie([2, 3, 7, 3, 3, 3, 4, 3, 1, 3, 3, 8, 3]) == False
+```
+
+## Opdracht 2.5
+Je neef, Eric, is een aardappel-schiller. Dagelijks schilt hij honderden aardappels. Op een dag is Eric benieuwd hoeveel tijd het schillen hem op een dag in beslag neemt. Omdat Eric VMBO Kader heeft gedaan, kan hij geen keersommen oplossen. Daarom vraagt hij aan jou om een snel programma voor hem te schrijven. Hij vertelt je dat hij gemiddeld 30 seconden over een aardappel doet. Rond af naar beneden als je niet op een heel aantal minuten uitkomt.
+
+Schrijf een functie voor Eric die het aantal aardappelen neemt als input en het aantal uur en minuten print. Bijvoorbeeld `schiltijd(1000)` heeft als output: `8 uur en 20 minuten`.

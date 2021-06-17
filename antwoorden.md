@@ -110,6 +110,10 @@ In welk van de volgende gevallen is `x` altijd `True`?
 - `x = not False`
 - `x = (7 == 7)`
 
+## Opdracht 1.11
+`x` is `True` of `False`. Wanneer is `y` altijd `True`?
+- `y = x or not x`
+
 # Programmeer vragen
 Dit is zijn allemaal voorbeelden, er zijn meerdere antwoorden goed.
 
@@ -142,3 +146,29 @@ def word_count(zin):
             count += 1
     return count
 ```
+
+## Opdracht 2.4
+De `count(x)` methode telt hoe vaak `x` voorkomt in een lijst. Bijvoorbeeld:
+```py
+lijst = [0, 1, 1, 2, 4]
+print(lijst.count(1))
+```
+heeft als output: `2`.
+Schrijf een functie die bepaalt of het getal `3` minimaal 4 en maximaal 7 keer in een lijst voorkomt. Dus:
+```py
+jouw_functie([3, 4, 3, 2, 3, 3]) == True
+jouw_functie([2, 3, 7, 3, 3, 3, 4, 3, 1, 3, 3, 8, 3]) == False
+```
+
+```py
+def jouw_functie(lijst):
+    if (lijst.count(3) >= 4 and lijst.count(3) <= 7):
+        return True
+    else:
+        return False
+```
+
+## Opdracht 2.5
+Je neef, Eric, is een aardappel-schiller. Dagelijks schilt hij honderden aardappels. Op een dag is Eric benieuwd hoeveel tijd het schillen hem op een dag in beslag neemt. Omdat Eric VMBO Kader heeft gedaan, kan hij geen keersommen oplossen. Daarom vraagt hij aan jou om een snel programma voor hem te schrijven. Hij vertelt je dat hij gemiddeld 30 seconden over een aardappel doet. Rond af naar beneden als je niet op een heel aantal minuten uitkomt.
+
+Schrijf een functie voor Eric die het aantal aardappelen neemt als input en het aantal uur en minuten print. Bijvoorbeeld `schiltijd(1000)` heeft als output: `8 uur en 20 minuten`.
