@@ -17,12 +17,12 @@ Welk van de volgende statements kun je gebruiken om 1 bij het getal x op te tell
 Bekijk het volgende stukje code
 ```py
 def foo(x):
-	if (x < 0):
-		print(x)
-	elif (x < 10):
-		print(x)
-	if (x > 5):
-		print(x)
+    if (x < 0):
+        print(x)
+    elif (x < 10):
+        print(x)
+    if (x > 5):
+        print(x)
 ```
 Leg uit wat de volgende statements printen:
 ### `foo(5)`
@@ -66,12 +66,12 @@ Welk van de volgende operators kun je gebruiken om de rest van een deelsom uit t
 Bekijk het volgende stukje code
 ```py
 def bar(a, b):
-	if (a <= b):
-		return b
-	else:
-		return a
+    if (a <= b):
+        return b
+    else:
+        return a
 ```
-Leg in je eigen woorden uit wat `bar(1, 2)` en `bar(4, 3)` returnen. Wat doet de functie bar?
+Leg in je eigen woorden uit wat `bar(1, 2)` en `bar(4, 3)` returnen. Wat doet de functie `bar`?
 
 ### `bar(1, 2)`
 In dit geval hebben we `a == 1` en `b == 2`. `a` is minder of gelijk aan `b`, dus retourneert de functie `b`. Dat is `2`.
