@@ -172,3 +172,11 @@ def jouw_functie(lijst):
 Je neef, Eric, is een aardappel-schiller. Dagelijks schilt hij honderden aardappels. Op een dag is Eric benieuwd hoeveel tijd het schillen hem op een dag in beslag neemt. Omdat Eric VMBO Kader heeft gedaan, kan hij geen keersommen oplossen. Daarom vraagt hij aan jou om een snel programma voor hem te schrijven. Hij vertelt je dat hij gemiddeld 30 seconden over een aardappel doet. Rond af naar beneden als je niet op een heel aantal minuten uitkomt.
 
 Schrijf een functie voor Eric die het aantal aardappelen neemt als input en het aantal uur en minuten print. Bijvoorbeeld `schiltijd(1000)` heeft als output: `8 uur en 20 minuten`.
+```py
+def schiltijd(aardappelen):
+    seconden = aardappelen * 30
+    uren = seconden // 3600
+    minuten = (seconden // 60) % 60
+    seconden = seconden % 60
+    print(f"{uren} uur en {minuten} minuten en {seconden} seconden")
+```

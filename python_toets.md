@@ -127,6 +127,6 @@ jouw_functie([2, 3, 7, 3, 3, 3, 4, 3, 1, 3, 3, 8, 3]) == False
 ```
 
 ## Opdracht 2.5
-Je neef, Eric, is een aardappel-schiller. Dagelijks schilt hij honderden aardappels. Op een dag is Eric benieuwd hoeveel tijd het schillen hem op een dag in beslag neemt. Omdat Eric VMBO Kader heeft gedaan, kan hij geen keersommen oplossen. Daarom vraagt hij aan jou om een snel programma voor hem te schrijven. Hij vertelt je dat hij gemiddeld 30 seconden over een aardappel doet. Rond af naar beneden als je niet op een heel aantal minuten uitkomt.
+Je neef, Eric, is een aardappel-schiller. Dagelijks schilt hij honderden aardappels. Op een dag is Eric benieuwd hoeveel tijd het schillen hem op een dag in beslag neemt. Omdat Eric VMBO Kader heeft gedaan, kan hij geen keersommen oplossen. Daarom vraagt hij aan jou om een snel programma voor hem te schrijven. Hij vertelt je dat hij gemiddeld 30 seconden over een aardappel doet.
 
-Schrijf een functie voor Eric die het aantal aardappelen neemt als input en het aantal uur en minuten print. Bijvoorbeeld `schiltijd(1000)` heeft als output: `8 uur en 20 minuten`.
+Schrijf een functie voor Eric die het aantal aardappelen neemt als input en het aantal uur en minuten en seconden print. Bijvoorbeeld `schiltijd(999)` heeft als output: `8 uur en 19 minuten en 30 seconden`.
